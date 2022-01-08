@@ -1,0 +1,8 @@
+struct Home {
+    let color:String
+    let address:String
+}
+let myhome = Home(color:"yellow",address:"sudama nagar")//Memberwise intializer
+
+print(myhome.color)
+print(myhome.address)
